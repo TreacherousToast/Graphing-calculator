@@ -12,7 +12,7 @@ void draw()
   stroke(255);
   for (float x = min; x <= max; x+=spacing)
   {
-    float y = sqrt(25-sq(x));
+    float y = sqrt(25-sq(x)); // function
     point(((x+max)/domainMagnitude)*width,height-((y+max)/domainMagnitude)*height);  
   }
   line(width/2,0,width/2,height);
